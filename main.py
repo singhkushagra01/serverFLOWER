@@ -1,3 +1,4 @@
+!pip install flwr
 import flwr as fl
 
 # Define an averaging strategy
