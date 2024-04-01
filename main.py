@@ -1,4 +1,8 @@
-!pip install flwr
+import subprocess
+import sys
+def install(name):
+    subprocess.call([sys.executable, '-m', 'pip', 'install', name])
+install("flwr")
 import flwr as fl
 
 # Define an averaging strategy
